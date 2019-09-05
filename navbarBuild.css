@@ -9,25 +9,33 @@ body {
 }
 
 nav {
-	background-color: #ffffff;
-	color: #000000;
+	background-color: #019dcf;
+	color: #ffffff;
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: .05em;
 	padding: 40px 60px;
 	overflow: auto;
+	
 }
+
 
 nav ul {
 	margin: 0;
+	width: 100%;
+	padding: 0;
+	text-align: center;
 }
 
 nav li {
 	float: left;
 	list-style: none;
-	margin-right: 200px;
-	
-
-
+	width: 33%;
 }
+
+nav li:hover {
+	color: black;
+}	
+
+
 
