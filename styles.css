@@ -36,6 +36,13 @@ nav li:hover {
 	color: black;
 }	
 
+@media screen and (max-width: 1000px){
+	nav {
+			font-size: .9rem;
+	}
+}
+
+
 @media screen and (max-width: 500px){
 	nav {
 		width: 500px;
@@ -52,6 +59,13 @@ header {
 	padding: 10px 20px;
 	text-align: center;
 	overflow: auto;
+}
+
+@media screen and (max-width: 1000px){
+	header {
+		
+		font-size: .9rem;
+	}
 }
 
 @media screen and (max-width: 500px){
@@ -73,6 +87,15 @@ header {
 	margin: 1px;
 }
 
+@media screen and (max-width: 1000px){
+	.portfolio .project {
+		
+		font-size: .9rem;
+		height: .9rem;
+		
+	}
+}
+
 @media screen and (max-width: 500px){
 	.portfolio .project {
 		width: 500px;
@@ -81,3 +104,4 @@ header {
 		
 	}
 }
+
