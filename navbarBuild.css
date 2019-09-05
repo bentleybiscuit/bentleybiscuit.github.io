@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px 10px;
+	overflow: auto;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+
