@@ -58,9 +58,26 @@ header {
 	header {
 		width: 500px;
 		font-size: .8rem;
+	
 	}
 }
 
+.portfolio .project{
+	background-color: #019dcf;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	padding: 40px 60px;
+	border: 5px;
+	margin: 1px;
+}
 
-
-
+@media screen and (max-width: 500px){
+	.portfolio .project {
+		width: 500px;
+		font-size: .8rem;
+		height: .8rem;
+		
+	}
+}
