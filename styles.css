@@ -78,7 +78,7 @@ header {
 
 
 .portfolio {
-	height: 700px;
+	height: 400px;
 	margin: 0 auto;
 	width: auto;
 	overflow: auto;
@@ -135,3 +135,35 @@ header {
 		font-size: .9rem;
 
 	}
+}
+
+.container h1 {
+	color: #019dcf;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin: 60px;
+	
+}	
+
+.container p {
+	color: #019dcf;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin: 60px;
+	
+}
+
+footer {
+	overflow: auto;
+}
+
+
+footer p {
+	color: #019dcf;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin: 60px;
+}
