@@ -76,7 +76,17 @@ header {
 	}
 }
 
-.portfolio .project{
+
+.portfolio {
+	height: 700px;
+	margin: 0 auto;
+	width: auto;
+
+}
+
+
+
+.portfolio .project {
 	background-color: #019dcf;
 	color: #ffffff;
 	font-size: 20px;
@@ -86,6 +96,7 @@ header {
 	border: 20px;
 	margin: 10px;
 }
+
 
 .portfolio #projectOne {
 	background-image: url("https://cdn.pixabay.com/photo/2019/08/29/19/48/cobweb-4439844__340.jpg");
@@ -107,6 +118,11 @@ header {
 	background-size: auto;
 	background-position: center;
 }
+
+.portfolio .project p {
+	position: relative;
+}
+
 
 @media screen and (max-width: 1200px){
 	.portfolio .project {
