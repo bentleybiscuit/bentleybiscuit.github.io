@@ -94,7 +94,8 @@ header {
 	letter-spacing: .05em;
 	padding: 40px 60px;
 	border: 20px;
-	margin: 10px;
+	margin: 2px;
+	width: 33%;
 }
 
 
@@ -119,11 +120,6 @@ header {
 	background-position: center;
 }
 
-.portfolio .project p {
-	position: relative;
-}
-
-
 @media screen and (max-width: 1200px){
 	.portfolio .project {
 		
@@ -144,9 +140,9 @@ header {
 
 @media screen and (min-width: 920px){
 	.portfolio .project {
-		width: 200px;
+		width: 33%;
 		height: 400px;
 		float: left;
-		margin: 50px;
+		margin: 2px;
 
 	}
