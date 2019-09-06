@@ -2,9 +2,6 @@
 	box-sizing: border-box;
 }
 
-
-
-
 body {
 	margin: 0;
 	font-family: arial, sans-serif;
@@ -18,17 +15,7 @@ nav {
 	font-weight: 400;
 	letter-spacing: .05em;
 	padding: 40px 60px;
-	
 }
-
-
-@media screen and (max-width: 500px){
-	nav {
-		width: 500px;
-		font-size: .8rem;
-	}
-}
-
 
 nav ul {
 	margin: 0;
@@ -48,5 +35,129 @@ nav li:hover {
 	color: black;
 }	
 
+@media screen and (max-width: 1220px){
+	nav {
+			font-size: .9rem;
+	}
+}
 
+
+@media screen and (max-width: 500px){
+	nav {
+		width: 500px;
+		font-size: .8rem;
+	}
+}
+
+header {
+	background-color: #ffffff;
+	color: #019dcf;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	padding: 10px 20px;
+	text-align: center;
+	overflow: auto;
+}
+
+@media screen and (max-width: 1220px){
+	header {
+		
+		font-size: .9rem;
+	}
+}
+
+@media screen and (max-width: 500px){
+	header {
+		width: 500px;
+		font-size: .8rem;
+	
+	}
+}
+
+
+.portfolio {
+	margin: 0 auto;
+	width: auto;
+	overflow: auto;
+
+}
+
+
+
+.portfolio .project {
+	background-color: #019dcf;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	padding: 40px 60px;
+	border: 20px;
+	margin: 2px;
+	width: 33%;
+	float: left;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+
+
+.portfolio #projectOne {
+	background-image: url("https://cdn.pixabay.com/photo/2019/08/29/19/48/cobweb-4439844__340.jpg");
+}
+
+.portfolio #projectTwo {
+	background-image: url("https://cdn.pixabay.com/photo/2019/08/31/06/56/sunflower-4442906__340.jpg");
+}
+
+.portfolio #projectThree {
+	background-image: url("https://cdn.pixabay.com/photo/2019/09/01/13/03/insect-4445180__340.jpg");
+}
+
+
+
+
+@media screen and (max-width: 1220px){
+	.portfolio .project {
+		width: 100%;
+		height: 400px;
+		float: left;
+		margin: 2px;
+		font-size: .9rem;
+
+	}
+}
+
+.container h1 {
+	color: #019dcf;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin: 30px;
+	
+}	
+
+.container p {
+	color: #019dcf;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin: 30px;
+	
+}
+
+footer p {
+	color: #019dcf;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 30px;
+}
+
+footer p .email {
+	color: #019dcf;
+	font-size: 30px;
+	font-weight: 400;
+	
+}
 
