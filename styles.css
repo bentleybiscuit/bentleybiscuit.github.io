@@ -11,7 +11,7 @@ body {
 nav {
 	background-color: #019dcf;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: .05em;
 	padding: 40px 60px;
@@ -36,7 +36,7 @@ nav li:hover {
 	color: black;
 }	
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 	nav {
 			font-size: .9rem;
 	}
@@ -53,7 +53,7 @@ nav li:hover {
 header {
 	background-color: #ffffff;
 	color: #019dcf;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 400;
 	letter-spacing: .05em;
 	padding: 10px 20px;
@@ -61,7 +61,7 @@ header {
 	overflow: auto;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 	header {
 		
 		font-size: .9rem;
@@ -108,7 +108,7 @@ header {
 	background-position: center;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 	.portfolio .project {
 		
 		font-size: .9rem;
@@ -126,10 +126,10 @@ header {
 	}
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 920px){
 	.portfolio .project {
-		width: 250px;
-		height: 250px;
+		width: 200px;
+		height: 400px;
 		float: left;
 		margin: 50px;
 
