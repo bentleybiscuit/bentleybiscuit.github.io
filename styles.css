@@ -70,9 +70,7 @@ header {
 	header {
 		width: 500px;
 		font-size: .8rem;
-	
 	}
-
 }
 
 @media screen and (min-width: 500px){
@@ -82,19 +80,6 @@ header {
 
 }
 
-/*@media screen and (min-width: 1220px){
-	.portfolio {
-		margin: 0 auto;
-	}
-}*/
-
-/*@media screen and (max-width: 500px){
-	.portfolio {
-		margin: 0 auto;
-		width: auto;
-	}
-}
-*/
 
 .portfolio {
 	margin: 0 auto;
@@ -112,8 +97,7 @@ header {
 	letter-spacing: .05em;
 	padding: 40px 60px;
 	width: 33%;
-	float: left;/*
-	height: 400px;*/
+	float: left;
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center;
@@ -166,6 +150,7 @@ footer p {
 	font-size: 30px;
 	font-weight: 400;
 	margin: 30px;
+	text-align: center;
 }
 
 footer p .email {
@@ -175,3 +160,26 @@ footer p .email {
 	
 }
 
+/*@media screen and (max-width: 500px){
+	footer p {
+		font-size: .9rem;
+	}
+}
+
+@media screen and (max-width: 500px){
+	footer p .email {
+		font-size: .9rem;
+	}
+}
+
+@media screen and (max-width: 1220px){
+	section .container p {
+		font-size: .9rem;
+	}
+}
+
+@media screen and (max-width: 500px){
+	section .container p {
+		font-size: .8rem;
+	}
+}*/
