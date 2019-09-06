@@ -11,7 +11,7 @@ body {
 nav {
 	background-color: #019dcf;
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: .05em;
 	padding: 40px 60px;
@@ -78,7 +78,6 @@ header {
 
 
 .portfolio {
-	height: 400px;
 	margin: 0 auto;
 	width: auto;
 	overflow: auto;
@@ -99,28 +98,22 @@ header {
 	width: 33%;
 	float: left;
 	height: 400px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
 }
 
 
 .portfolio #projectOne {
 	background-image: url("https://cdn.pixabay.com/photo/2019/08/29/19/48/cobweb-4439844__340.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
 }
 
 .portfolio #projectTwo {
 	background-image: url("https://cdn.pixabay.com/photo/2019/08/31/06/56/sunflower-4442906__340.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
 }
 
 .portfolio #projectThree {
 	background-image: url("https://cdn.pixabay.com/photo/2019/09/01/13/03/insect-4445180__340.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
 }
 
 
@@ -142,7 +135,7 @@ header {
 	font-size: 30px;
 	font-weight: 400;
 	letter-spacing: .05em;
-	margin: 60px;
+	margin: 30px;
 	
 }	
 
@@ -151,7 +144,7 @@ header {
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: .05em;
-	margin: 60px;
+	margin: 30px;
 	
 }
 
@@ -162,8 +155,14 @@ footer {
 
 footer p {
 	color: #019dcf;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 400;
-	letter-spacing: .05em;
-	margin: 60px;
+	margin: 30px;
+}
+
+footer p .email {
+	color: #019dcf;
+	font-size: 30px;
+	font-weight: 400;
+	
 }
