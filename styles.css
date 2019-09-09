@@ -107,7 +107,7 @@ header {
 
 footer p {
 	color: #019dcf;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 400;
 	margin: 30px;
 	text-align: center;
@@ -115,9 +115,9 @@ footer p {
 
 footer p .email {
 	color: #019dcf;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 400;
-	
+
 }
 
 
@@ -135,6 +135,20 @@ footer p .email {
 		font-size: .9rem;
 
 	}
+	
+	.container h1 {
+		font-size: .9rem;
+		
+	}
+	
+	.container p {
+		font-size: .9rem;
+		
+	}
+	
+	.footer p {
+		font-size: .9rem;
+		
 }
 
 
@@ -149,7 +163,11 @@ footer p .email {
 		width: 500px;
 		font-size: .8rem;
 	}
-	
+
+	.footer p {
+		font-size: .8rem;
+		
+	}
 	
 }
 
