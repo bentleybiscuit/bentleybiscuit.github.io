@@ -2,23 +2,22 @@
 	box-sizing: border-box;
 }
 
+html {
+		font-weight: 400;
+}
+
 body {
 	font-family: arial, sans-serif;
-	
+	margin: 0;
 }
 
 nav {
 	background-color: #019dcf;
 	color: #ffffff;
-	font-size: 20px;
-	font-weight: 400;
-	letter-spacing: .05em;
 	padding: 40px 60px;
 }
 
 nav ul {
-	margin: 0;
-	width: 100%;
 	padding: 0;
 	text-align: center;
 	overflow: auto;
@@ -39,14 +38,10 @@ li a {
 }
 
 header {
-	background-color: #ffffff;
 	color: #019dcf;
 	font-size: 40px;
-	font-weight: 400;
-	letter-spacing: .05em;
 	padding: 10px 20px;
 	text-align: center;
-
 }
 
 .portfolio {
@@ -58,73 +53,61 @@ header {
 	background-color: #019dcf;
 	color: #ffffff;
 	font-size: 20px;
-	font-weight: 400;
-	letter-spacing: .05em;
+
+	letter-spacing: .05rem;
 	padding: 40px 60px;
 	width: 33%;
 	float: left;
 	background-repeat: no-repeat;
-	background-size: auto;
 	background-position: center;
 }
 
-
 .portfolio #projectOne {
-	background-image: url("https://cdn.pixabay.com/photo/2019/08/29/19/48/cobweb-4439844__340.jpg");
+	background-image: url("images/cobweb-4439844__340.jpg");
 }
 
 .portfolio #projectTwo {
-	background-image: url("https://cdn.pixabay.com/photo/2019/08/31/06/56/sunflower-4442906__340.jpg");
+	background-image: url("images/sunflower-4442906__340.jpg");
 }
 
 .portfolio #projectThree {
-	background-image: url("https://cdn.pixabay.com/photo/2019/09/01/13/03/insect-4445180__340.jpg");
+	background-image: url("images/insect-4445180__340.jpg");
 }
 
 .container {
 	text-align: center;
 }
 
-
 .container h1 {
 	color: #019dcf;
 	font-size: 20px;
-	font-weight: 400;
-	letter-spacing: .05em;
+	letter-spacing: .05rem;
 	margin: 30px;
-	
-	
 }	
 
 .container p {
 	color: #019dcf;
 	font-size: 20px;
-	font-weight: 400;
-	letter-spacing: .05em;
+	letter-spacing: .05rem;
 	margin: 30px;
-	
 }
 
-footer p {
+footer h1 {
 	color: #019dcf;
 	font-size: 20px;
-	font-weight: 400;
 	margin: 30px;
 	text-align: center;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.05rem;
 }
 
-footer p .email {
+footer h1 .email {
 	color: #019dcf;
 	font-size: 20px;
-	font-weight: 400;
-
 }
-
 
 @media screen and (max-width: 1220px){
 	nav {
-			font-size: .95rem;
+		font-size: .95rem;
 	}
 	
 	header {
@@ -133,23 +116,16 @@ footer p .email {
 	
 	.portfolio .project {
 		width: 100%;
-		font-size: .95rem;
-
 	}
 
-	
 	.container p {
 		font-size: .95rem;
-		
 	}
 	
 	.footer p {
 		font-size: .95rem;
-		
 	}
-
 }
-
 
 @media screen and (max-width: 500px){
 	nav {
@@ -161,12 +137,8 @@ footer p .email {
 	}
 }
 	
-	
-
 @media screen and (min-width: 500px){
 	.portfolio .project {
 		height: 400px;
 	}
-
 }
-
