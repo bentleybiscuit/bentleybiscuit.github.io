@@ -35,20 +35,6 @@ nav li:hover {
 	color: black;
 }	
 
-@media screen and (max-width: 1220px){
-	nav {
-			font-size: .9rem;
-	}
-}
-
-
-@media screen and (max-width: 500px){
-	nav {
-		width: 500px;
-		font-size: .8rem;
-	}
-}
-
 header {
 	background-color: #ffffff;
 	color: #019dcf;
@@ -60,25 +46,6 @@ header {
 	overflow: auto;
 }
 
-@media screen and (max-width: 1220px){
-	header {
-		font-size: .9rem;
-	}
-}
-
-@media screen and (max-width: 500px){
-	header {
-		width: 500px;
-		font-size: .8rem;
-	}
-}
-
-@media screen and (min-width: 500px){
-	.portfolio .project {
-		height: 400px;
-	}
-
-}
 
 
 .portfolio {
@@ -119,13 +86,6 @@ header {
 
 
 
-@media screen and (max-width: 1220px){
-	.portfolio .project {
-		width: 100%;
-		font-size: .9rem;
-
-	}
-}
 
 .container h1 {
 	color: #019dcf;
@@ -160,26 +120,43 @@ footer p .email {
 	
 }
 
-/*@media screen and (max-width: 500px){
-	footer p {
-		font-size: .9rem;
-	}
-}
-
-@media screen and (max-width: 500px){
-	footer p .email {
-		font-size: .9rem;
-	}
-}
 
 @media screen and (max-width: 1220px){
-	section .container p {
+	nav {
+			font-size: .9rem;
+	}
+	
+	header {
 		font-size: .9rem;
+	}
+	
+	.portfolio .project {
+		width: 100%;
+		font-size: .9rem;
+
 	}
 }
 
+
+
 @media screen and (max-width: 500px){
-	section .container p {
+	nav {
+		width: 500px;
 		font-size: .8rem;
 	}
-}*/
+	
+	header {
+		width: 500px;
+		font-size: .8rem;
+	}
+	
+	
+}
+
+@media screen and (min-width: 500px){
+	.portfolio .project {
+		height: 400px;
+	}
+
+}
+
