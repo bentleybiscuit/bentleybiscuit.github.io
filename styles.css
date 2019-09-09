@@ -162,28 +162,10 @@ footer p .email {
 		width: 500px;
 		font-size: .8rem;
 	}
-/*	
-	.container h1 {
-		font-size: .8rem;
-		
-	}
-	
-	.container p {
-		font-size: .8rem;
-		
-	}
-
-	footer p {
-		font-size: .8rem;
-		
-	}
-	
-	footer p .email {
-		font-size: .8rem;
-	}
-	
 }
-*/
+	
+	
+
 @media screen and (min-width: 500px){
 	.portfolio .project {
 		height: 400px;
