@@ -63,15 +63,15 @@ header {
 }
 
 .portfolio #projectOne {
-	background-image: url("images/cobweb-4439844__340.jpg");
+	background-image: url("cobweb.jpg");
 }
 
 .portfolio #projectTwo {
-	background-image: url("images/sunflower-4442906__340.jpg");
+	background-image: url("bee.jpg");
 }
 
 .portfolio #projectThree {
-	background-image: url("images/insect-4445180__340.jpg");
+	background-image: url("firebug.jpg");
 }
 
 .container {
