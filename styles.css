@@ -51,7 +51,7 @@ header {
 
 .portfolio .project {
 	background-color: #019dcf;
-	color: #ffffff;
+	color: #000000;
 	font-size: 20px;
 
 	letter-spacing: .05rem;
@@ -67,7 +67,7 @@ header {
 }
 
 .portfolio #projectTwo {
-	background-image: url("bee.jpg");
+	background-image: url("geckos.png");
 }
 
 .portfolio #projectThree {
