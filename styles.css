@@ -11,8 +11,14 @@ body {
 	margin: 0;
 }
 
+.background {
+	background-image: url("joists.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 nav {
-	background-color: #019dcf;
+	background-color: #725547;
 	color: #ffffff;
 	padding: 40px 60px;
 }
@@ -38,7 +44,7 @@ li a {
 }
 
 header {
-	color: #019dcf;
+	color: #ffffff;
 	font-size: 40px;
 	padding: 10px 20px;
 	text-align: center;
@@ -50,11 +56,7 @@ header {
 }
 
 .portfolio .project {
-	background-color: #019dcf;
-	color: #000000;
-	font-size: 20px;
-
-	letter-spacing: .05rem;
+	background-color: #725547;
 	padding: 40px 60px;
 	width: 33%;
 	float: left;
@@ -68,6 +70,7 @@ header {
 
 .portfolio #projectTwo {
 	background-image: url("geckos.png");
+	margin: 2px;
 }
 
 .portfolio #projectThree {
@@ -79,30 +82,37 @@ header {
 }
 
 .container h1 {
-	color: #019dcf;
-	font-size: 20px;
+	color: #ffffff;
+	font-size: 30px;
 	letter-spacing: .05rem;
 	margin: 30px;
+	font-weight: bold;
 }	
 
 .container p {
-	color: #019dcf;
+	color: #ffffff;
 	font-size: 20px;
 	letter-spacing: .05rem;
 	margin: 30px;
+	font-weight: bold;
 }
 
 footer h1 {
-	color: #019dcf;
+	color: #ffffff;
 	font-size: 20px;
 	margin: 30px;
 	text-align: center;
 	letter-spacing: 0.05rem;
+	font-weight: bold;
+}
+a.email {
+	color: #ffffff;
 }
 
-footer h1 .email {
-	color: #019dcf;
-	font-size: 20px;
+.footbar {
+	background-color: #725547;
+	color: #ffffff;
+	padding: 40px 60px;
 }
 
 @media screen and (max-width: 1220px){
