@@ -58,7 +58,7 @@ header {
 .portfolio .project {
 	background-color: #000000;
 	padding: 40px 60px;
-	width: 33%;
+	width: 16%;
 	float: left;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -75,6 +75,18 @@ header {
 
 .portfolio #projectThree {
 	background-image: url("firebug.jpg");
+}
+
+.portfolio #projectFour {
+	background-image: url("grubScreenShot.png");
+}
+
+.portfolio #projectFive {
+	 background-image: url("mouse.jpeg");
+}
+
+.portfolio #projectSix {
+	background-image: url("babies.jpeg");
 }
 
 .container {
