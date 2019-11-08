@@ -56,12 +56,15 @@ header {
 }
 
 .portfolio .project {
-	background-color: #000000;
-	padding: 40px 60px;
+	/*background-color: #000000;*/
+	/*padding: 40px 60px;*/
 	width: 16%;
 	float: left;
 	background-repeat: no-repeat;
 	background-position: center;
+	border-width: 20px;
+	border-color: #000000;
+	margin: 5px;
 }
 
 .portfolio #projectOne {
