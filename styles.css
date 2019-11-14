@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-	background-color: #000000;
+	background-color: #3c3f41;
 	color: #ffffff;
 	padding: 40px 60px;
 }
@@ -50,21 +50,27 @@ header {
 	text-align: center;
 }
 
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
 .portfolio {
 	margin: 20px 20px;
 	overflow: auto;
+	padding-left: 5%;
 }
 
 .portfolio .project {
-	/*background-color: #000000;*/
-	/*padding: 40px 60px;*/
-	width: 16%;
+	width: 30%;
 	float: left;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-width: 20px;
-	border-color: #000000;
 	margin: 5px;
+	background-color: white;
 }
 
 .portfolio #projectOne {
@@ -73,27 +79,14 @@ header {
 
 .portfolio #projectTwo {
 	background-image: url("geckos.png");
-	margin: 2px;
+	/*margin: 2px;*/
 }
 
 .portfolio #projectThree {
-	background-image: url("firebug.jpg");
+	background-image: url("grubby.png");
 }
-
-.portfolio #projectFour {
-	background-image: url("grubScreenShot.png");
-}
-
-.portfolio #projectFive {
-	 background-image: url("mouse.jpeg");
-}
-
-.portfolio #projectSix {
-	background-image: url("babies.jpeg");
-}
-
 .container {
-	text-align: center;
+	text-align: left;
 }
 
 .container h1 {
@@ -125,7 +118,7 @@ a.email {
 }
 
 .footbar {
-	background-color: #000000;
+	background-color: #3c3f41;
 	color: #ffffff;
 	padding: 40px 60px;
 }
