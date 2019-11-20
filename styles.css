@@ -102,7 +102,7 @@ h2 {
 	font-size: 20px;
 	letter-spacing: .05rem;
 	margin: 30px;
-	font-weight: bold;
+	padding-left: 5%;
 }
 
 footer h1 {
@@ -111,10 +111,14 @@ footer h1 {
 	margin: 30px;
 	text-align: center;
 	letter-spacing: 0.05rem;
-	font-weight: bold;
 }
+
+h3 {
+	text-align: center;
+}
+
 a.email {
-	color: #ffffff;
+	 color: #ffffff;
 }
 
 .footbar {
